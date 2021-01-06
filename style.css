@@ -1,5 +1,6 @@
 body{
     font-family: 'Oswald', sans-serif;
+    margin: 0px;
 }
 .half-width{
     float: left;
@@ -8,8 +9,10 @@ body{
     width: 40%;
 }
 section{
-    height: 500px;
+    height: 400px;
+    width: 100%;
     margin-bottom: 150px;
+    
 }
 .name-highlight{
     color: blue;
@@ -31,6 +34,8 @@ h2{
     border-radius: 5px;
     font-weight: 700px;
     font-size: 18px;
+    margin-bottom: 20px;
+    
     
 }
 p {
@@ -47,4 +52,77 @@ p {
     position: center;
     padding-bottom: 10%;
     text-align: center;
+    padding-right: 20%;
+    padding-top: 5%;
+    color: white;
 }
+.color-section {
+    width:1240px;
+    padding-left: 2%;
+    margin-left: 15%;   
+    background-image: url("images/shape-fast.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    
+}
+.button-go {
+    padding-top: 12%;
+    padding-left: 5%;
+}
+h1 {
+    font-size: 60px;
+}
+.new-button {
+    text-decoration: none;
+    border: 2px solid;
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 15px 30px ;
+    border-radius: 5px;
+    font-weight: 700px;
+    font-size: 18px;
+    margin-right: 15%;
+}
+section color-section {
+    height: 100px;
+}
+.name {
+    text-align: center;
+}
+.left-image {
+    float: left;
+    padding-left: 2%;
+    margin-left: 5%;
+    width: 15%;
+    
+}
+.left-image img {
+    width: 100%;
+    padding-left: 70%;
+   
+}
+.about-section {
+    padding-bottom: 200px;
+}
+h3 {
+    font-size: 25px;
+    margin-right: 50%;
+    text-align: right;
+    
+    
+}
+.image-area {
+    background-color: #F8F9FC;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+.text-section {
+    margin-right: 50px;
+
+}
+.description-text p {
+    text-align: center;
+}
+
